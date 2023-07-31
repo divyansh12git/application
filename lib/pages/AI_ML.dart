@@ -12,6 +12,8 @@ class _AI_MLState extends State<AI_ML> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(child: Text("AIML")),
-    );
+      backgroundColor: Color.fromARGB(255, 244, 147, 147)
+      );
+
   }
 }

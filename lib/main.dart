@@ -1,3 +1,4 @@
+import 'package:application/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:application/pages/landingPage.dart';
 import 'package:application/routes/mapping.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       
       routes:{
+        // "/":(context)=>User_Profile(),
         "/":(context) => Landing_Page(),
         MyRoutes.landingRoute:(context)=>Landing_Page(),
         MyRoutes.AI_MLRoute:(context)=>AI_ML(),
@@ -29,6 +31,7 @@ class MyApp extends StatelessWidget {
         MyRoutes.Android_DevRoute:(context)=>Androiders(),
         MyRoutes.DSARoute:(context)=>DSAers(),
         MyRoutes.DesigningRoute:(context)=>Designers(),
+        MyRoutes.ProfileRoute:(context)=>User_Profile(),
       }
     );
   }
