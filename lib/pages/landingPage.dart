@@ -21,13 +21,13 @@ class _Landing_PageState extends State<Landing_Page> {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              Domain(imageURL:"images/aiml.png" ,name:"AI and ML"),
-              Domain(name:"Web Development",imageURL: "images/web.png",),
-              Domain(name:"Android (Flutter)",imageURL: "images/flutter.png",),
-              Domain(name:"Android (Kotlin)",imageURL: "images/kotlin.png",),
-              Domain(name:"DSA and Programming",imageURL: "images/dsa.png",),
-              Domain(name:"Designing",imageURL: "images/designing.png",),
-              Domain(name:"Management",imageURL: "images/management.png",),
+              Domain(imageURL:"images/aiml.png" ,name:"AI and ML",renderpage: MyRoutes.AI_MLRoute,),
+              Domain(name:"Web Development",imageURL: "images/web.png",renderpage: MyRoutes.Web_DevRoute,),
+              Domain(name:"Android (Flutter)",imageURL: "images/flutter.png",renderpage: MyRoutes.FlutterRoute,),
+              Domain(name:"Android (Kotlin)",imageURL: "images/kotlin.png",renderpage: MyRoutes.KotlinRoute,),
+              Domain(name:"DSA and Programming",imageURL: "images/dsa.png",renderpage: MyRoutes.DSARoute,),
+              Domain(name:"Designing",imageURL: "images/designing.png",renderpage: MyRoutes.DesigningRoute,),
+              Domain(name:"Management",imageURL: "images/management.png",renderpage: MyRoutes.ManagementRoute,),
             ],
           ),
         ),

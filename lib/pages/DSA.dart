@@ -10,7 +10,7 @@ class _DSAersState extends State<DSAers> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body:Center(child: Text("designers")),
+      body:Center(child: Text("DSA")),
     );
   }
 }

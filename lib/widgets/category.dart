@@ -3,14 +3,14 @@ import 'package:application/routes/mapping.dart';
 
 class Domain extends StatelessWidget {
    
-String name,imageURL;
-Domain({required this.name,required this.imageURL});
+String name,imageURL,renderpage;
+Domain({required this.name,required this.imageURL,required this.renderpage});
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
                 onTap: () {
-                  Navigator.pushNamed(context, MyRoutes.AI_MLRoute);
+                  Navigator.pushNamed(context, renderpage);
                 },
                 child: Stack(children: [
                   Container(

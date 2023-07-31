@@ -4,10 +4,11 @@ import 'package:application/pages/landingPage.dart';
 import 'package:application/routes/mapping.dart';
 import 'package:application/pages/AI_ML.dart';
 import 'package:application/pages/Web_dev.dart';
-import 'package:application/pages/android_dev.dart';
+import 'package:application/pages/flutter.dart';
 import 'package:application/pages/dsa.dart';
 import 'package:application/pages/designing.dart';
-
+import 'package:application/pages/Kotlin.dart';
+import 'package:application/pages/management.dart';
 
 
 void main() {
@@ -28,10 +29,13 @@ class MyApp extends StatelessWidget {
         MyRoutes.landingRoute:(context)=>Landing_Page(),
         MyRoutes.AI_MLRoute:(context)=>AI_ML(),
         MyRoutes.Web_DevRoute:(context)=>Web_developers(),
-        MyRoutes.Android_DevRoute:(context)=>Androiders(),
+        MyRoutes.FlutterRoute:(context)=>FlutterPage(),
         MyRoutes.DSARoute:(context)=>DSAers(),
         MyRoutes.DesigningRoute:(context)=>Designers(),
         MyRoutes.ProfileRoute:(context)=>User_Profile(),
+        MyRoutes.KotlinRoute:(context) =>KotlinPage(),
+        MyRoutes.ManagementRoute:(context)=>ManagementPage(),
+
       }
     );
   }
