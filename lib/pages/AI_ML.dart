@@ -15,7 +15,7 @@ class _AI_MLState extends State<AI_ML> {
     return Scaffold(
         appBar: MyAppBar(),
         // body: Center(child: Text("AIML")),
-        backgroundColor: Color(0xffDBF6FF),
+        backgroundColor: Color(0xFFDCF6FF),
         body: SingleChildScrollView(
           child: Align(
             alignment: Alignment.topLeft,

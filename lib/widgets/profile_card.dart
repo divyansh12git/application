@@ -21,17 +21,27 @@ class _ProfileCardState extends State<ProfileCard> {
     ),],
         gradient: LinearGradient(
           begin: Alignment.bottomLeft,
-          end: Alignment(0.5, 0.4),
+          stops: [
+                0.1,
+                0.4,
+                0.6,
+                0.9,
+              ],
+          end: Alignment.topRight,
           colors: [
-            Color(0xFF1394E8),
-            Color(0xffFFFFFF),
-          ],
+            Color(0xff5EB6EF),
+            Color.fromARGB(255, 162, 218, 255),
+            Color(0xFFDCF6FF),
+            Color(0xFFDCF6FF),
+            
+          ]
         ),
         borderRadius: BorderRadius.circular(20),
       ),
       child: Padding(
         padding: const EdgeInsets.all(5.0),
         child: Container(
+          
           child: Padding(
             padding: const EdgeInsets.all(2.0),
             child:Column(
@@ -128,8 +138,8 @@ class _ProfileCardState extends State<ProfileCard> {
             )
           ),
           decoration: BoxDecoration(
-            color: Colors.white,
-            border: Border.all(color: Colors.white),
+            color:Color(0xFFDCF6FF),
+          
             borderRadius: BorderRadius.circular(20),
           ),
         ),
