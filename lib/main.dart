@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       
       routes:{
-        // "/":(context)=>User_Profile(),
+        // "/":(context)=>Profile_page(),
         "/":(context) => Landing_Page(),
         MyRoutes.landingRoute:(context)=>Landing_Page(),
         MyRoutes.AI_MLRoute:(context)=>AI_ML(),
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         MyRoutes.FlutterRoute:(context)=>FlutterPage(),
         MyRoutes.DSARoute:(context)=>DSAers(),
         MyRoutes.DesigningRoute:(context)=>Designers(),
-        MyRoutes.ProfileRoute:(context)=>User_Profile(),
+        MyRoutes.ProfileRoute:(context)=>Profile_page(),
         MyRoutes.KotlinRoute:(context) =>KotlinPage(),
         MyRoutes.ManagementRoute:(context)=>ManagementPage(),
 
