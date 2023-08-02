@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       
       routes:{
-        // "/":(context)=>Profile_page(),
+        
         "/":(context) => Landing_Page(),
         MyRoutes.landingRoute:(context)=>Landing_Page(),
         MyRoutes.AI_MLRoute:(context)=>AI_ML(),

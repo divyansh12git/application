@@ -1,3 +1,5 @@
+import 'package:application/widgets/appbar.dart';
+import 'package:application/widgets/profile_card.dart';
 import 'package:flutter/material.dart';
 
 class AI_ML extends StatefulWidget {
@@ -11,9 +13,43 @@ class _AI_MLState extends State<AI_ML> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: Text("AIML")),
-      backgroundColor: Color.fromARGB(255, 244, 147, 147)
-      );
-
+        appBar: MyAppBar(),
+        // body: Center(child: Text("AIML")),
+        backgroundColor: Color(0xffDBF6FF),
+        body: SingleChildScrollView(
+          child: Align(
+            alignment: Alignment.topLeft,
+            child: Column(children: [
+              Row(
+                children: [
+                  ProfileCard(),
+                  ProfileCard(),
+                ],
+              ),
+              Row(
+                children: [
+                  ProfileCard(),
+                  ProfileCard(),
+                ],
+              ),Row(
+                children: [
+                  ProfileCard(),
+                  ProfileCard(),
+                ],
+              ),
+              Row(
+                children: [
+                  ProfileCard(),
+                  ProfileCard(),
+                ],
+              ),Row(
+                children: [
+                  ProfileCard(),
+                  ProfileCard(),
+                ],
+              )
+            ]),
+          ),
+        ));
   }
 }
