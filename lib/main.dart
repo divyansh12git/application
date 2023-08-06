@@ -12,6 +12,7 @@ import 'package:application/pages/management.dart';
 
 
 void main() {
+  Paint.enableDithering = true;
   runApp(MyApp());
 }
 
