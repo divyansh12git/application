@@ -1,3 +1,4 @@
+import 'package:application/pages/App_dev.dart';
 import 'package:application/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:application/pages/landingPage.dart';
@@ -6,7 +7,7 @@ import 'package:application/pages/AI_ML.dart';
 import 'package:application/pages/Web_dev.dart';
 import 'package:application/pages/flutter.dart';
 import 'package:application/pages/dsa.dart';
-import 'package:application/pages/designing.dart';
+import 'package:application/pages/UI_UX.dart';
 import 'package:application/pages/Kotlin.dart';
 import 'package:application/pages/management.dart';
 
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
         MyRoutes.ProfileRoute:(context)=>Profile_page(),
         MyRoutes.KotlinRoute:(context) =>KotlinPage(),
         MyRoutes.ManagementRoute:(context)=>ManagementPage(),
-
+        MyRoutes.AppDevRoute:(context) => AppDevPage()
       }
     );
   }

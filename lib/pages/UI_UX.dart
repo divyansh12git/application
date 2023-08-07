@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 import '../widgets/drawer.dart';
 
-class ManagementPage extends StatefulWidget {
-  const ManagementPage({super.key});
+class Designers extends StatefulWidget {
+  const Designers({super.key});
 
   @override
-  State<ManagementPage> createState() => _ManagementPageState();
+  State<Designers> createState() => _DesignersState();
 }
 
-class _ManagementPageState extends State<ManagementPage> {
+class _DesignersState extends State<Designers> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -43,9 +43,9 @@ class _ManagementPageState extends State<ManagementPage> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Container(height:130),
-                        Text("Management",style:TextStyle(color: Color(0xffD4B9FE),fontSize: 25,fontWeight: FontWeight.bold),),
+                        Text("DSA & CP",style:TextStyle(color: Color(0xffEDCAAA),fontSize: 25,fontWeight: FontWeight.bold),),
                         Container(height:15),
-                      Text("Knowledge areas include event planning, project management, team coordination, communication skills and budgeting."
+                      Text("Essential knowledge includes algorithms, data structures, problem-solving, coding efficiency, and time complexity analysis."
                       ,style:TextStyle(color: Color(0xff959595),fontSize: 14,fontWeight: FontWeight.w500),
                       )
                       ],
