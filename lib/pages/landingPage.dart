@@ -57,7 +57,7 @@ class _Landing_PageState extends State<Landing_Page> {
                       tagline: "Innovating experiences through mobile apps",
                       people_count: "13",
                       colour:0xffA8E9E3,
-                      renderpage: MyRoutes.FlutterRoute),
+                      renderpage: MyRoutes.AppDevRoute),
                   Domain(
                       name: "DSA & CP",
                       tagline: "Code to conquer challenges with precision",

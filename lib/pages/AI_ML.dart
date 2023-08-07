@@ -25,40 +25,50 @@ class _AI_MLState extends State<AI_ML> {
           height: MediaQuery.of(context).size.height,
           width: double.infinity,
           child:SingleChildScrollView(
-            child: Column(
-              children: [
-                Container(
-                  height:250,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.all(Radius.circular(30)) ,
-                    gradient: LinearGradient(
-                      begin:Alignment.topCenter,end:Alignment.bottomCenter,
-                      colors: [
-                        Color.fromARGB(0, 0, 0, 0),Color.fromARGB(63, 114, 114, 114),
-                      ],
+            child: Padding(
+              padding: const EdgeInsets.only(bottom:10),
+              child: Column(
+                children: [
+                  Container(
+                    height:250,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(30)) ,
+                      gradient: LinearGradient(
+                        begin:Alignment.topCenter,end:Alignment.bottomCenter,
+                        colors: [
+                          Color.fromARGB(0, 0, 0, 0),Color.fromARGB(63, 114, 114, 114),
+                        ],
+                      ),
                     ),
+            
+                    child: Padding(
+                      padding: const EdgeInsets.only(left:30.0,right:30.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Container(height:130),
+                          Text("AI & ML",style:TextStyle(color: Color(0xffDF9568),fontSize: 25,fontWeight: FontWeight.bold),),
+                          Container(height:15),
+                        Text("Knowledge of algorithms, data preprocessing, statistical analysis, programming, and model evaluation is essential."
+                        ,style:TextStyle(color: Color(0xff959595),fontSize: 14,fontWeight: FontWeight.w500),
+                        )
+                        ],
+                      ),
+                    )
+            
+            
                   ),
-
-                  child: Padding(
-                    padding: const EdgeInsets.only(left:30.0,right:30.0),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Container(height:130),
-                        Text("AI & ML",style:TextStyle(color: Color(0xffDF9568),fontSize: 25,fontWeight: FontWeight.bold),),
-                        Container(height:15),
-                      Text("Knowledge of algorithms, data preprocessing, statistical analysis, programming, and model evaluation is essential."
-                      ,style:TextStyle(color: Color(0xff959595),fontSize: 14,fontWeight: FontWeight.w500),
-                      )
-                      ],
-                    ),
-                  )
-
-
-                ),
-                ProfileCard(name: "Selena Gomez", photo: "images/avtar.png", bgc:0xff471A00,gc1:0xffFD6203,gc2:0xffC89677,
-                  out:0xffDF9568, year: "2nd", department: "CSE")
-              ],
+                  ProfileCard(name: "Divyansh Gupta", photo: "images/avtar.png", bgc:0xFF471A00,gc1:0xffFD6203,gc2:0xffC89677,
+                    out:0xffDF9568, year: "Second", department: "CSE"),
+                    ProfileCard(name: "Shakti prassna Mohapatra", photo: "images/avtar.png", bgc:0xFF471A00,gc1:0xffFD6203,gc2:0xffC89677,
+                    out:0xffDF9568, year: "Second", department: "CSE"),
+                    ProfileCard(name: "Piyushhhhh", photo: "images/avtar.png", bgc:0xFF471A00,gc1:0xffFD6203,gc2:0xffC89677,
+                    out:0xffDF9568, year: "Second", department: "CSE"),
+                    ProfileCard(name: "Abhinav Singh", photo: "images/avtar.png", bgc:0xFF471A00,gc1:0xffFD6203,gc2:0xffC89677,
+                    out:0xffDF9568, year: "Second", department: "CSE"),
+                    
+                ],
+              ),
             ),
           ),
         
