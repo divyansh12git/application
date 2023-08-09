@@ -1,5 +1,5 @@
 import 'package:application/pages/App_dev.dart';
-import 'package:application/profile.dart';
+import 'package:application/pages/profile_page.dart';
 import 'package:flutter/material.dart';
 import 'package:application/pages/landingPage.dart';
 import 'package:application/routes/mapping.dart';
@@ -34,10 +34,11 @@ class MyApp extends StatelessWidget {
         MyRoutes.FlutterRoute:(context)=>FlutterPage(),
         MyRoutes.DSARoute:(context)=>DSAers(),
         MyRoutes.DesigningRoute:(context)=>Designers(),
-        MyRoutes.ProfileRoute:(context)=>Profile_page(),
+        MyRoutes.ProfileRoute:(context)=>ProfilePage(),
         MyRoutes.KotlinRoute:(context) =>KotlinPage(),
         MyRoutes.ManagementRoute:(context)=>ManagementPage(),
         MyRoutes.AppDevRoute:(context) => AppDevPage()
+        
       }
     );
   }

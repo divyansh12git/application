@@ -8,7 +8,5 @@ class MyRoutes{
   static String ManagementRoute="/management.dart";
   static String KotlinRoute="/Kotlin.dart";
   static String AppDevRoute="/App_dev.dart";
-
-
-  static String ProfileRoute='/profile.dart';
+  static String ProfileRoute="/pages/profile_page.dart";
 }

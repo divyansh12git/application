@@ -2,7 +2,7 @@ import "package:application/routes/mapping.dart";
 import "package:application/widgets/drawer.dart";
 import "package:flutter/material.dart";
 
-import "../widgets/domainCard.dart";
+import '../widgets/domainCard.dart';
 
 class Landing_Page extends StatefulWidget {
   const Landing_Page({super.key});
